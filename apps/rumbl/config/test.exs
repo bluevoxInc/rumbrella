@@ -6,11 +6,7 @@ config :rumbl, Rumbl.Endpoint,
   http: [port: 4001],
   server: false
 
-# Print only warnings and errors during test
-config :logger, level: :warn
-#config :logger,
-#  backends: [:console],
-#  compile_time_purge_level: :debug
+config :logger, :level, :warn
 
 # Configure your database
 config :rumbl, Rumbl.Repo,

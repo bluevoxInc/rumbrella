@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Math'
+    timedout=''
+    timedoutpods=''
+    timing='1.272'
+    parsetiming='0.107'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa5211f3650e77e9hf77000001b949f05ah4f2i79'
+    host='http://www5a.wolframalpha.com'
+    server='39'
+    related='http://www5a.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa5221f3650e77e9hf770000017c3d3fa0ei73f9g5072938308630446634'
+    version='2.6'>
+ <pod title='Input'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5231f3650e77e9hf770000027c9cfb8322a7b3b?MSPStoreType=image/gif&amp;s=39'
+       alt='1 + 1'
+       title='1 + 1'
+       width='32'
+       height='18' />
+   <plaintext>1 + 1</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Result'
+     scanner='Simplification'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5241f3650e77e9hf770000012ba0hcf9c847cgc?MSPStoreType=image/gif&amp;s=39'
+       alt='2'
+       title='2'
+       width='8'
+       height='18' />
+   <plaintext>2</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='Step-by-step solution'
+       input='Result__Step-by-step solution' />
+  </states>
+ </pod>
+ <pod title='Number name'
+     scanner='Integer'
+     id='NumberName'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5251f3650e77e9hf7700000133icc673ifcgd36?MSPStoreType=image/gif&amp;s=39'
+       alt='two'
+       title='two'
+       width='25'
+       height='18' />
+   <plaintext>two</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Number line'
+     scanner='NumberLine'
+     id='NumberLine'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5261f3650e77e9hf770000028895cbh35gadgid?MSPStoreType=image/gif&amp;s=39'
+       alt=''
+       title=''
+       width='300'
+       height='51' />
+   <plaintext></plaintext>
+  </subpod>
+ </pod>
+ <pod title='Manipulatives illustration'
+     scanner='Arithmetic'
+     id='Illustration'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5271f3650e77e9hf77000003938ehb7eciaag52?MSPStoreType=image/gif&amp;s=39'
+       alt=' | + |  |  =  | 
+1 |  | 1 |  | 2'
+       title=' | + |  |  =  | 
+1 |  | 1 |  | 2'
+       width='116'
+       height='40' />
+   <plaintext> | + |  |  =  | 
+1 |  | 1 |  | 2</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Typical human computation times'
+     scanner='Arithmetic'
+     id='TypicalHumanComputationTimes'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP5281f3650e77e9hf770000039146chbc9e9h766?MSPStoreType=image/gif&amp;s=39'
+       alt='age 6:  3.2 seconds  |  age 8:  1.8 seconds  |  age 10:  1.2 seconds  |  
+age 18:  0.83 seconds
+(ignoring concentration, repetition, variations in education, etc.)'
+       title='age 6:  3.2 seconds  |  age 8:  1.8 seconds  |  age 10:  1.2 seconds  |  
+age 18:  0.83 seconds
+(ignoring concentration, repetition, variations in education, etc.)'
+       width='485'
+       height='59' />
+   <plaintext>age 6:  3.2 seconds  |  age 8:  1.8 seconds  |  age 10:  1.2 seconds  |  
+age 18:  0.83 seconds
+(ignoring concentration, repetition, variations in education, etc.)</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='More details'
+       input='TypicalHumanComputationTimes__More details' />
+  </states>
+ </pod>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/HumanComputationQuerySourceInformationNotes.html'
+      text='Human computation query' />
+ </sources>
+</queryresult>

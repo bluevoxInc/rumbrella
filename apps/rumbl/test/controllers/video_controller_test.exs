@@ -1,5 +1,5 @@
 defmodule Rumbl.VideoControllerTest do
-  # require Logger
+  require Logger
   use Rumbl.ConnCase
 
   alias Rumbl.Video
@@ -56,8 +56,8 @@ defmodule Rumbl.VideoControllerTest do
     user_video_mod = Repo.get_by!(Video, @valid_attrs)
     assert user_video.id == user_video_mod.id
 
-    # Logger.debug "*****DEBUGGING******** #{inspect Repo.get_by!(Video, @valid_attrs)}"
-    # Logger.debug "*****DEBUGGING******** #{inspect user_video}"
+    Logger.debug "*****DEBUGGING******** #{inspect Repo.get_by!(Video, @valid_attrs)}"
+    Logger.debug "*****DEBUGGING******** #{inspect user_video}"
 
     assert redirected_to(conn) == video_path(conn, :show, user_video_mod)
   end
